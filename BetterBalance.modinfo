@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="better-balance-mod" version="4">
+  <Properties>
+    <Name>Better Balance</Name>
+    <Description>Large map balance mod.</Description>
+    <Authors>Aleks</Authors>
+  </Properties>
+
+  <InGameActions>
+    <UpdateDatabase id="BetterBalanceChanges" LoadOrder="1000">
+      <File>balance.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+
+  <Files>
+    <File>balance.sql</File>
+  </Files>
+</Mod>
