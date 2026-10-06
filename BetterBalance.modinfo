@@ -40,9 +40,26 @@
       </Properties>
       <File>artillery.sql</File>
     </UpdateDatabase>
+    <UpdateDatabase id="BetterBalanceHelicopters">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <File>helicopters.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="BetterBalanceDescriptions">
+      <Properties><LoadOrder>100001</LoadOrder></Properties>
+      <File>descriptions.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="BetterBalanceDescriptionsText">
+      <Properties><LoadOrder>100001</LoadOrder></Properties>
+      <File>descriptions.xml</File>
+    </UpdateText>
   </InGameActions>
 
   <Files>
+    <File>descriptions.sql</File>
+    <File>descriptions.xml</File>
+    <File>helicopters.sql</File>
     <File>artillery.sql</File>
     <File>submarine_telecom.sql</File>
     <File>special_forces.sql</File>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_ADV_HELI_DESCRIPTION">
+      <Text>Быстрая легкая кавалерия Информационной эры. Летает над водой не погружаясь на корабли. На воде может атаковать только дальним боем. Может летать надо льдом (если включен мод Ледокол).[NEWLINE]Дальность обстрела: 2 клетки. Сила обстрела: 70. +15 к боевой мощи против лёгкой и тяжёлой кавалерии. Содержание: 1 нефть за ход.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_AIRB_HELI_DESCRIPTION">
+      <Text>Юнит поддержки эпохи атома. Объедененные с ним юниты перемещаются с той же скоростью. Может летать над водой, но юнит обьедеенный с ним имеет на 50% меньше боевой мощи при обороне от дальнобойных атак. Может летать надо льдом (если включен мод Ледокол).[NEWLINE]Движение: 6. Содержание: 1 нефть за ход.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_ADV_HELI_DESCRIPTION">
+      <Text>Information Age Fast light cavalry. It flies over water without sinking into ships. On the water, it can only attack with ranged combat. Can fly over ice (if mod Icebreaker Enabled).[NEWLINE]Attack range: 2 tiles. Ranged strength: 70. +15 Combat Strength against light and heavy cavalry. Consumes 1 Oil per turn.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_AIRB_HELI_DESCRIPTION">
+      <Text>Atomic era support unit. All units combined with Airborne Helicopter move at the same speed. Can fly over water, but a unit paired with it has 50% less combat power when defending against ranged attacks. Can fly over ice (if mod Icebreaker Enabled).[NEWLINE]Movement: 6. Consumes 1 Oil per turn.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BBC_TELECOM_DESCRIPTION">
+      <Text>Обычные подводные лодки получают +5 к боевой мощи и +1 к обзору. Эсминцы получают +1 к обзору. Бонусы действуют на существующие и новые юниты.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BBC_HELI_ANTI_CAVALRY_NAME">
+      <Text>Противотанковое вооружение</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BBC_HELI_ANTI_CAVALRY_DESCRIPTION">
+      <Text>+15 к боевой мощи против лёгкой и тяжёлой кавалерии.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BBC_HELI_ANTI_CAVALRY_PREVIEW">
+      <Text>+{1_Amount} против кавалерии</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BBC_SUBMARINE_TELECOM_PREVIEW">
+      <Text>+{1_Amount} от Дальней связи</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BBC_TELECOM_DESCRIPTION">
+      <Text>Submarines gain +5 Combat Strength and +1 Sight. Destroyers gain +1 Sight. Applies to existing and newly built units.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BBC_HELI_ANTI_CAVALRY_NAME">
+      <Text>Anti-tank Armament</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BBC_HELI_ANTI_CAVALRY_DESCRIPTION">
+      <Text>+15 Combat Strength against light and heavy cavalry.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BBC_HELI_ANTI_CAVALRY_PREVIEW">
+      <Text>+{1_Amount} vs. cavalry</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BBC_SUBMARINE_TELECOM_PREVIEW">
+      <Text>+{1_Amount} from Telecommunications</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

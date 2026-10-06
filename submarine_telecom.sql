@@ -40,3 +40,6 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 ('BBC_DESTROYER_TELECOM_SIGHT', 'Amount', '1');
 INSERT INTO TechnologyModifiers (TechnologyType, ModifierId)
 VALUES ('TECH_TELECOMMUNICATIONS', 'BBC_DESTROYER_TELECOM_ATTACH_SIGHT');
+
+INSERT INTO ModifierStrings (ModifierId, Context, Text)
+VALUES ('BBC_SUBMARINE_TELECOM_STRENGTH', 'Preview', 'LOC_BBC_SUBMARINE_TELECOM_PREVIEW');
