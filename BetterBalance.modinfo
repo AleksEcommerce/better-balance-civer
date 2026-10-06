@@ -16,9 +16,16 @@
       </Properties>
       <File>submarine_upgrades.sql</File>
     </UpdateDatabase>
+    <UpdateDatabase id="BetterBalanceAirDefense">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <File>air_defense.sql</File>
+    </UpdateDatabase>
   </InGameActions>
 
   <Files>
+    <File>air_defense.sql</File>
     <File>submarine_upgrades.sql</File>
     <File>balance.sql</File>
   </Files>
