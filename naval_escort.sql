@@ -1,0 +1,17 @@
+-- Морские корабли передают скорость сопровождению.
+-- Исключены морские рейдеры (каперы и подлодки) и авианосцы.
+INSERT INTO Tags (Tag, Vocabulary)
+VALUES ('BBC_CLASS_NAVAL_ESCORT', 'ABILITY_CLASS');
+INSERT INTO Types (Type, Kind)
+VALUES ('BBC_ABILITY_NAVAL_ESCORT', 'KIND_ABILITY');
+INSERT INTO UnitAbilities (UnitAbilityType, Name, Description)
+VALUES ('BBC_ABILITY_NAVAL_ESCORT', 'LOC_BBC_NAVAL_ESCORT_NAME', 'LOC_BBC_NAVAL_ESCORT_DESCRIPTION');
+INSERT INTO TypeTags (Type, Tag)
+VALUES ('BBC_ABILITY_NAVAL_ESCORT', 'BBC_CLASS_NAVAL_ESCORT');
+INSERT INTO TypeTags (Type, Tag)
+SELECT UnitType, 'BBC_CLASS_NAVAL_ESCORT' FROM Units
+WHERE Domain = 'DOMAIN_SEA'
+AND FormationClass = 'FORMATION_CLASS_NAVAL'
+AND COALESCE(PromotionClass, '') NOT IN ('PROMOTION_CLASS_NAVAL_RAIDER', 'PROMOTION_CLASS_NAVAL_CARRIER');
+INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId)
+VALUES ('BBC_ABILITY_NAVAL_ESCORT', 'ESCORT_MOBILITY_SHARED_MOVEMENT');

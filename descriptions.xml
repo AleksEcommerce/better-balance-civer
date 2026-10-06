@@ -43,5 +43,17 @@
     <Replace Language="en_US" Tag="LOC_BBC_SUBMARINE_TELECOM_PREVIEW">
       <Text>+{1_Amount} from Telecommunications</Text>
     </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BBC_NAVAL_ESCORT_NAME">
+      <Text>Морское сопровождение</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BBC_NAVAL_ESCORT_DESCRIPTION">
+      <Text>Юнит в сопровождении использует скорость этого корабля.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BBC_NAVAL_ESCORT_NAME">
+      <Text>Naval Escort</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BBC_NAVAL_ESCORT_DESCRIPTION">
+      <Text>Units in formation use this ship’s movement speed.</Text>
+    </Replace>
   </LocalizedText>
 </GameData>

@@ -1,102 +1,35 @@
--- =====================================
 -- ДВИЖЕНИЕ
--- =====================================
+-- +1 всем наземным и +2 всем морским юнитам.
+UPDATE Units SET BaseMoves = BaseMoves + 1 WHERE Domain = 'DOMAIN_LAND';
+UPDATE Units SET BaseMoves = BaseMoves + 2 WHERE Domain = 'DOMAIN_SEA';
 
--- +1 всем наземным юнитам
-UPDATE Units
-SET BaseMoves = BaseMoves + 1
-WHERE Domain = 'DOMAIN_LAND';
+-- +1 к движению наземных юнитов на воде для основных цивилизаций.
+INSERT INTO Modifiers (ModifierId, ModifierType)
+VALUES ('BBC_EMBARKED_MOVEMENT', 'MODIFIER_PLAYER_ADJUST_EMBARKED_MOVEMENT');
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+VALUES ('BBC_EMBARKED_MOVEMENT', 'Amount', '1');
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES ('TRAIT_LEADER_MAJOR_CIV', 'BBC_EMBARKED_MOVEMENT');
 
--- +2 всем морским юнитам
-UPDATE Units
-SET BaseMoves = BaseMoves + 2
-WHERE Domain = 'DOMAIN_SEA';
-
--- +1 юнитам, которые могут плыть (embark)
-UPDATE Units
-SET BaseMoves = BaseMoves + 1
-WHERE Domain = 'DOMAIN_LAND'
-AND CanEmbark = 1;
-
--- =====================================
 -- РЕЛИГИОЗНЫЕ ЮНИТЫ
--- =====================================
+UPDATE Units SET SpreadCharges = SpreadCharges + 1
+WHERE UnitType IN ('UNIT_MISSIONARY', 'UNIT_INQUISITOR');
 
--- +1 заряд миссионерам
-UPDATE Units
-SET SpreadCharges = SpreadCharges + 1
-WHERE UnitType = 'UNIT_MISSIONARY';
-
--- +1 заряд инквизиторам
-UPDATE Units
-SET SpreadCharges = SpreadCharges + 1
-WHERE UnitType = 'UNIT_INQUISITOR';
-
--- =====================================
 -- АВИАЦИЯ
--- =====================================
+UPDATE Units SET Range = Range + 1 WHERE Domain = 'DOMAIN_AIR';
 
--- +1 к радиусу атаки всем воздушным юнитам
-UPDATE Units
-SET Range = Range + 1
-WHERE Domain = 'DOMAIN_AIR';
-
--- =====================================
--- ТОРГОВЛЯ
--- =====================================
-
--- +1 золото и +1 еда всем торговым путям
-UPDATE Routes
-SET YieldChangeGold = YieldChangeGold + 1,
-    YieldChangeFood = YieldChangeFood + 1;
-
-
--- =====================================
 -- ИНЖЕНЕРЫ
--- =====================================
-
--- +1 заряд военному инженеру
-UPDATE Units
-SET BuildCharges = BuildCharges + 1
+UPDATE Units SET BuildCharges = BuildCharges + 1
 WHERE UnitType = 'UNIT_MILITARY_ENGINEER';
 
+-- УЛУЧШЕНИЯ: -25% к базовой цене, производственной части и минимальной цене.
+UPDATE GlobalParameters SET Value = CAST(Value AS REAL) * 0.75
+WHERE Name IN ('UPGRADE_BASE_COST', 'UPGRADE_NET_PRODUCTION_PERCENT_COST', 'UPGRADE_MINIMUM_COST');
 
--- =====================================
--- АПГРЕЙДЫ
--- =====================================
+-- ИИ: повышенная оценка морских боевых юнитов.
+UPDATE AiFavoredItems SET Value = Value + 2
+WHERE Item = 'PSEUDOYIELD_UNIT_NAVAL_COMBAT';
 
--- -25% к стоимости апгрейда для всех
-UPDATE GlobalParameters
-SET Value = Value * 0.75
-WHERE Name = 'UNIT_UPGRADE_COST_PER_PRODUCTION';
-
-
--- =====================================
--- AI И МОРЕ
--- =====================================
-
--- AI больше ценит морские юниты
-UPDATE AiFavoredItems
-SET Value = Value + 2
-WHERE ItemType IN (
-  'UNIT_QUADRIREME',
-  'UNIT_CARAVEL',
-  'UNIT_FRIGATE',
-  'UNIT_IRONCLAD',
-  'UNIT_DESTROYER',
-  'UNIT_SUBMARINE'
-);
-
--- AI больше ценит морские технологии
-UPDATE AiFavoredItems
-SET Value = Value + 2
-WHERE ItemType IN (
-  'TECH_SAILING',
-  'TECH_SHIPBUILDING',
-  'TECH_CARTOGRAPHY'
-);
-
--- AI больше ценит морские атаки
-UPDATE AiFavoredItems
-SET Value = Value + 2
-WHERE ItemType = 'OPERATION_NAVAL_ATTACK';
+-- ИИ: предпочтение существующих морских технологий.
+UPDATE AiFavoredItems SET Favored = 1
+WHERE Item IN ('TECH_SAILING', 'TECH_SHIPBUILDING', 'TECH_CARTOGRAPHY');
