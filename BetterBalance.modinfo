@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="better-balance-mod" version="4">
   <Properties>
-    <Name>Better Balance</Name>
+    <Name>Better Balance Civer</Name>
     <Description>Large map balance mod.</Description>
     <Authors>Aleks</Authors>
   </Properties>
@@ -10,9 +10,16 @@
     <UpdateDatabase id="BetterBalanceChanges" LoadOrder="1000">
       <File>balance.sql</File>
     </UpdateDatabase>
+    <UpdateDatabase id="BetterBalanceSubmarineUpgrades">
+      <Properties>
+        <LoadOrder>10000</LoadOrder>
+      </Properties>
+      <File>submarine_upgrades.sql</File>
+    </UpdateDatabase>
   </InGameActions>
 
   <Files>
+    <File>submarine_upgrades.sql</File>
     <File>balance.sql</File>
   </Files>
 </Mod>
