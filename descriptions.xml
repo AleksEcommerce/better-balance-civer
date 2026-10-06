@@ -55,5 +55,17 @@
     <Replace Language="en_US" Tag="LOC_BBC_NAVAL_ESCORT_DESCRIPTION">
       <Text>Units in formation use this ship’s movement speed.</Text>
     </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION">
+      <Text>+1 [ICON_Science] науки, +1 [ICON_Faith] веры и +1 [ICON_Culture] культуры на всех клетках побережья этого города. Должен быть построен рядом с гаванью.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION">
+      <Text>+1 [ICON_Science] Science, +1 [ICON_Faith] Faith, and +1 [ICON_Culture] Culture on all Coast tiles for this city. Must be built adjacent to a Harbor district.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION">
+      <Text>+6 [ICON_Production] производства этому городу постоянно. +100% к производству морских юнитов в этом городе, пока в нём есть неразграбленная верфь. +2 очка [ICON_GreatEngineer] великого инженера за ход. Не создаёт бесплатные копии кораблей. Должен быть построен на клетке побережья рядом с промышленной зоной.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION">
+      <Text>+6 [ICON_Production] Production in this city. +100% Production toward naval units in this city while it has an unpillaged Shipyard. +2 [ICON_GreatEngineer] Great Engineer points per turn. Does not grant free copies of ships. Must be built on a Coast tile adjacent to an Industrial Zone district.</Text>
+    </Replace>
   </LocalizedText>
 </GameData>
