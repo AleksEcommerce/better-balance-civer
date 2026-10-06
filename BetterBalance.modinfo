@@ -22,9 +22,30 @@
       </Properties>
       <File>air_defense.sql</File>
     </UpdateDatabase>
+    <UpdateDatabase id="BetterBalanceSpecialForces">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <File>special_forces.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="BetterBalanceSubmarineTelecom">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <File>submarine_telecom.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="BetterBalanceArtillery">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <File>artillery.sql</File>
+    </UpdateDatabase>
   </InGameActions>
 
   <Files>
+    <File>artillery.sql</File>
+    <File>submarine_telecom.sql</File>
+    <File>special_forces.sql</File>
     <File>air_defense.sql</File>
     <File>submarine_upgrades.sql</File>
     <File>balance.sql</File>
