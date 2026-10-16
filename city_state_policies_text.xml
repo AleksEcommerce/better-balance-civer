@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="ru_RU" Tag="LOC_POLICY_COLLECTIVE_ACTIVISM_DESCRIPTION" Text="+3% [ICON_Culture] культуры за каждый город-государство, сюзереном которого вы являетесь."/>
+    <Replace Language="ru_RU" Tag="LOC_POLICY_INTERNATIONAL_SPACE_AGENCY_DESCRIPTION" Text="+3% [ICON_Science] науки за каждый город-государство, сюзереном которого вы являетесь."/>
+    <Replace Language="en_US" Tag="LOC_POLICY_COLLECTIVE_ACTIVISM_DESCRIPTION" Text="+3% [ICON_Culture] Culture per city-state you are the Suzerain of."/>
+    <Replace Language="en_US" Tag="LOC_POLICY_INTERNATIONAL_SPACE_AGENCY_DESCRIPTION" Text="+3% [ICON_Science] Science per city-state you are the Suzerain of."/>
+  </LocalizedText>
+</GameData>
