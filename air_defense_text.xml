@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData><LocalizedText>
+<Replace Language="ru_RU" Tag="LOC_BBC_SAM_SUPPORT_NAME" Text="Взаимная поддержка ЗРК"/>
+<Replace Language="ru_RU" Tag="LOC_BBC_SAM_SUPPORT_DESCRIPTION" Text="Каждый соседний собственный мобильный ЗРК даёт дополнительно +5 силы ПВО сверх стандартной поддержки ПВО."/>
+<Replace Language="en_US" Tag="LOC_BBC_SAM_SUPPORT_NAME" Text="SAM mutual support"/>
+<Replace Language="en_US" Tag="LOC_BBC_SAM_SUPPORT_DESCRIPTION" Text="Each adjacent owned Mobile SAM grants +5 additional anti-air strength on top of standard anti-air support."/>
+</LocalizedText></GameData>
