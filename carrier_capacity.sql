@@ -22,3 +22,9 @@ UPDATE Units SET AntiAirCombat = 80
 WHERE UnitType = 'UNIT_AIRCRAFT_CARRIER'
    OR UnitType IN (SELECT CivUniqueUnitType FROM UnitReplaces
                    WHERE ReplacesUnitType = 'UNIT_AIRCRAFT_CARRIER');
+
+-- Equal base sight for standard and unique aircraft carriers.
+UPDATE Units SET BaseSightRange = 3
+WHERE UnitType = 'UNIT_AIRCRAFT_CARRIER'
+   OR UnitType IN (SELECT CivUniqueUnitType FROM UnitReplaces
+                   WHERE ReplacesUnitType = 'UNIT_AIRCRAFT_CARRIER');
