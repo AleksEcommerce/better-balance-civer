@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData><LocalizedText>
+<Replace Language="ru_RU" Tag="LOC_BBC_SPEC_OPS_SATELLITES_PREVIEW" Text="+{1_Amount} от технологии «Спутники»"/>
+<Replace Language="en_US" Tag="LOC_BBC_SPEC_OPS_SATELLITES_PREVIEW" Text="+{1_Amount} from Satellites"/>
+<Replace Language="ru_RU" Tag="LOC_BBC_SATELLITES_DESCRIPTION" Text="Спецназ получает +5 к боевой мощи и силе обстрела. Действует на существующие и новые отряды."/>
+<Replace Language="en_US" Tag="LOC_BBC_SATELLITES_DESCRIPTION" Text="Spec Ops gain +5 Combat Strength and Ranged Strength. Applies to existing and newly trained units."/>
+</LocalizedText></GameData>
