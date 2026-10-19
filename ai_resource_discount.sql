@@ -1,4 +1,4 @@
--- AI major civilizations: 50% strategic resource discount for recruitment and upgrades.
+-- AI major civilizations: 75% strategic resource discount for recruitment and upgrades.
 -- Native engine effects handle final integer costs; upkeep fields are untouched.
 INSERT INTO Types (Type, Kind) VALUES
 ('BBC_MODIFIER_AI_CITY_RESOURCE_DISCOUNT', 'KIND_MODIFIER');
@@ -15,8 +15,8 @@ INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId) VALUES
 ('BBC_AI_RECRUIT_RESOURCE_DISCOUNT', 'BBC_MODIFIER_AI_CITY_RESOURCE_DISCOUNT', 'BBC_AI_PLAYER_REQUIREMENTS'),
 ('BBC_AI_UPGRADE_RESOURCE_DISCOUNT', 'MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_RESOURCE_COST_MODIFIER', 'BBC_AI_PLAYER_REQUIREMENTS');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
-('BBC_AI_RECRUIT_RESOURCE_DISCOUNT', 'Amount', 50),
-('BBC_AI_UPGRADE_RESOURCE_DISCOUNT', 'Amount', 50);
+('BBC_AI_RECRUIT_RESOURCE_DISCOUNT', 'Amount', 75),
+('BBC_AI_UPGRADE_RESOURCE_DISCOUNT', 'Amount', 75);
 INSERT INTO TraitModifiers (TraitType, ModifierId) VALUES
 ('TRAIT_LEADER_MAJOR_CIV', 'BBC_AI_RECRUIT_RESOURCE_DISCOUNT'),
 ('TRAIT_LEADER_MAJOR_CIV', 'BBC_AI_UPGRADE_RESOURCE_DISCOUNT');
