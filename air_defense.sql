@@ -12,7 +12,7 @@ WHERE UnitType = 'UNIT_ANTIAIR_GUN';
 
 -- Base anti-air strength. Preserve the global +5 AA support rule.
 UPDATE Units SET AntiAirCombat = 100 WHERE UnitType = 'UNIT_ANTIAIR_GUN';
-UPDATE Units SET Cost = 590, AntiAirCombat = 110 WHERE UnitType = 'UNIT_MOBILE_SAM';
+UPDATE Units SET Cost = 590, AntiAirCombat = 110, Maintenance = 8 WHERE UnitType = 'UNIT_MOBILE_SAM';
 
 -- Each Mobile SAM grants +5 additional AA strength to adjacent owned Mobile SAMs.
 INSERT INTO Types (Type, Kind) VALUES
