@@ -1,0 +1,35 @@
+-- Mortar is the permanent end of its ranged upgrade branch.
+DELETE FROM UnitUpgrades WHERE Unit = 'UNIT_DLV_MORTAR' AND UpgradeUnit = 'UNIT_ROCKET_ARTILLERY';
+
+-- Native observer support: one +1 range bonus whether balloon, drone or both.
+INSERT OR IGNORE INTO TypeTags (Type, Tag)
+SELECT UnitType, 'CLASS_FORWARD_OBSERVER' FROM Units WHERE UnitType = 'UNIT_DLV_MORTAR';
+
+-- A separately built three-shot rocket artillery unit, using the existing model.
+UPDATE Units SET Range = 8 WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
+UPDATE Units SET Description = 'LOC_BBC_ROCKET_ARTILLERY_DESCRIPTION' WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
+UPDATE Units SET Description = 'LOC_BBC_MORTAR_DESCRIPTION' WHERE UnitType = 'UNIT_DLV_MORTAR';
+
+-- One conditional bonus on the mortar, rather than a stacking aura per drone.
+INSERT INTO Types (Type, Kind) VALUES ('ABILITY_BBC_MORTAR_DRONE', 'KIND_ABILITY');
+INSERT INTO Tags (Tag, Vocabulary) VALUES ('CLASS_BBC_MORTAR', 'ABILITY_CLASS');
+INSERT INTO TypeTags (Type, Tag) SELECT UnitType, 'CLASS_BBC_MORTAR' FROM Units WHERE UnitType = 'UNIT_DLV_MORTAR';
+INSERT INTO TypeTags (Type, Tag) VALUES ('ABILITY_BBC_MORTAR_DRONE', 'CLASS_BBC_MORTAR');
+INSERT INTO UnitAbilities (UnitAbilityType, Inactive) VALUES ('ABILITY_BBC_MORTAR_DRONE', 0);
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES
+('BBC_MORTAR_NEAR_DRONE', 'REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES'),
+('BBC_MORTAR_IS_ATTACKING', 'REQUIREMENT_PLAYER_IS_ATTACKING'),
+('BBC_MORTAR_RANGED_COMBAT', 'REQUIREMENT_COMBAT_TYPE_MATCHES');
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('BBC_MORTAR_NEAR_DRONE', 'Tag', 'CLASS_DRONE'),
+('BBC_MORTAR_NEAR_DRONE', 'IncludeCenter', 1),
+('BBC_MORTAR_RANGED_COMBAT', 'CombatType', 'COMBAT_RANGED');
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES ('BBC_MORTAR_DRONE_ATTACK_REQUIREMENTS', 'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
+('BBC_MORTAR_DRONE_ATTACK_REQUIREMENTS', 'BBC_MORTAR_NEAR_DRONE'),
+('BBC_MORTAR_DRONE_ATTACK_REQUIREMENTS', 'BBC_MORTAR_IS_ATTACKING'),
+('BBC_MORTAR_DRONE_ATTACK_REQUIREMENTS', 'BBC_MORTAR_RANGED_COMBAT');
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('BBC_MORTAR_DRONE_STRENGTH', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'BBC_MORTAR_DRONE_ATTACK_REQUIREMENTS');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BBC_MORTAR_DRONE_STRENGTH', 'Amount', 10);
+INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES ('ABILITY_BBC_MORTAR_DRONE', 'BBC_MORTAR_DRONE_STRENGTH');
