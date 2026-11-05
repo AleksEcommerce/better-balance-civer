@@ -83,12 +83,3 @@ WHERE UnitType = 'UNIT_B2_SPIRIT';
 -- Reduce the Tu-95's combat strength and production cost.
 UPDATE Units SET Combat = 85, Cost = 650
 WHERE UnitType = 'UNIT_TUPOLEV_TU95';
-
--- Open conventional late-game bombers on Satellites.
-UPDATE Units SET PrereqTech = 'TECH_SATELLITES'
-WHERE UnitType IN (
-    'UNIT_JET_BOMBER',
-    'UNIT_B52_STRATOFORTRESS',
-    'UNIT_TUPOLEV_TU95',
-    'UNIT_XIAN_H6'
-);
