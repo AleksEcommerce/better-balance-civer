@@ -1,0 +1,6 @@
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_STR_UKRAINE_UKRAINIAN_NATIONAL_AWAKENING_DESCRIPTION" Language="en_US" Text="+5% [ICON_Food] Food, [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Production] Production, [ICON_Gold] Gold, and [ICON_Faith] Faith in all cities. Increases to +10% with Nationalism."/>
+    <Replace Tag="LOC_TRAIT_CIVILIZATION_STR_UKRAINE_UKRAINIAN_NATIONAL_AWAKENING_DESCRIPTION" Language="ru_RU" Text="+5% к [ICON_Food] пище, [ICON_Science] науке, [ICON_Culture] культуре, [ICON_Production] производству, [ICON_Gold] золоту и [ICON_Faith] вере во всех городах. После изучения «Национализма» бонус увеличивается до +10%."/>
+  </LocalizedText>
+</GameData>
