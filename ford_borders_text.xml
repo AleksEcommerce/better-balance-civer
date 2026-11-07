@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Tag="LOC_BBC_FORD_FOREIGN_BORDERS_NAME" Language="ru_RU"><Text>Свобода навигации</Text></Replace>
+    <Replace Tag="LOC_BBC_FORD_FOREIGN_BORDERS_DESCRIPTION" Language="ru_RU"><Text>Может входить в чужие границы без соглашения об открытых границах.</Text></Replace>
+    <Replace Tag="LOC_BBC_FORD_FOREIGN_BORDERS_NAME" Language="en_US"><Text>Freedom of Navigation</Text></Replace>
+    <Replace Tag="LOC_BBC_FORD_FOREIGN_BORDERS_DESCRIPTION" Language="en_US"><Text>Can enter foreign territory without an Open Borders agreement.</Text></Replace>
+  </LocalizedText>
+</GameData>
