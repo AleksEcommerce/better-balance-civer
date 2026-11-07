@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_TITLE" Text="Автоматизация юнитов" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_AUTOMATE_TOOLTIP" Text="Автоматизировать действия" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STOP_AUTOMATE_TOOLTIP" Text="Остановить автоматизацию" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_AUTOMATE_ALL_TOOLTIP" Text="Автоматизировать всех строителей" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STOP_AUTOMATE_ALL_TOOLTIP" Text="Остановить автоматизацию всех строителей" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_STRATEGIC" Text="Освоение стратегического ресурса:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_LUXURY" Text="Освоение редкого ресурса:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_BONUS" Text="Освоение бонусного ресурса:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_REMOVE_FEATURE" Text="Удаление особенности местности:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_HARVEST_RESOURCE" Text="Сбор ресурса:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR" Text="Ремонт улучшения:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR_ROAD" Text="Ремонт дороги." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_IMPROVEMENT" Text="Строительство улучшения:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_UNIQUE_IMPROVEMENT" Text="Строительство уникального улучшения:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_SLEEP" Text="Ожидание доступной работы." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_WITH" Text="с" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_FOR" Text="для" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_EXCAVATE" Text="Раскопки артефакта." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_STRATEGIC_NAME" Text="Освоить стратегический ресурс:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_LUXURY_NAME" Text="Освоить редкий ресурс:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_IMPROVE_BONUS_NAME" Text="Освоить бонусный ресурс:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_REMOVE_FEATURE_NAME" Text="Удалить особенность местности:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_HARVEST_RESOURCE_NAME" Text="Собрать ресурс:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR_NAME" Text="Отремонтировать улучшение:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_REPAIR_ROAD_NAME" Text="Отремонтировать дорогу:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_IMPROVEMENT_NAME" Text="Построить улучшение:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_BUILD_UNIQUE_IMPROVEMENT_NAME" Text="Построить уникальное улучшение:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_STATUS_EXCAVATE_NAME" Text="Раскопать артефакт:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_NAME" Text="Автоматизация юнитов" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_AUTHOR_NAME" Text="Автор — MadManCam" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_SUBTITLE" Text="Панель управления" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_TOGGLE_SETTINGS" Text="Настройки" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDERS_MINIBAR_TOGGLE_SETTINGS_TOOLTIP" Text="Открыть настройки автоматизации юнитов." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL" Text="Общие настройки" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES" Text="Приоритеты выбора" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PLOT_PRIORITIES" Text="Приоритеты клеток" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_GENERAL_HIDDEN" Text="Скрытые настройки" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_REMOVE_FEATURES" Text="Разрешить строителям удалять особенности местности:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_REMOVE_FEATURES_TOOLTIP" Text="Если отключено, строители не будут удалять особенности местности, кроме случаев освоения стратегического или редкого ресурса." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_HARVEST_RESOURCES" Text="Разрешить строителям собирать ресурсы:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_HARVEST_RESOURCES_TOOLTIP" Text="Если отключено, строители не будут собирать ресурсы." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_FARMS_OUT_OF_RANGE" Text="Разрешить строительство ферм в пределах 4 клеток от города:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_FARMS_OUT_OF_RANGE_TOOLTIP" Text="Если включено, строители могут строить фермы в пределах 4 клеток от ваших городов, если рядом есть ферма в пределах 3 клеток от города для получения бонуса соседства." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_EXPLORE" Text="Разрешить археологам искать артефакты в тумане войны:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_EXPLORE_TOOLTIP" Text="Если отключено, археологи будут проводить раскопки только на разведанной территории, избегая полностью неразведанных клеток." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_ENTER_BORDERS" Text="Разрешить археологам раскопки на территории других игроков:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_GENERAL_ARCH_ENTER_BORDERS_TOOLTIP" Text="Если включено, археологи будут пытаться проводить раскопки на территории других игроков." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_DEFAULTS" Text="Восстановить настройки" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_DEFAULTS_TOOLTIP" Text="Заменить текущие настройки стандартными." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_PRIORITIES" Text="Восстановить приоритеты" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_RESTORE_PRIORITIES_TOOLTIP" Text="Восстановить стандартные значения только для приоритетов выбора." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_REMINDER" Text="Настройки автоматизации действуют только в текущем сеансе и сбрасываются[NEWLINE]при каждой загрузке игры. Чтобы изменить стандартные настройки, прочитайте пояснения[NEWLINE]в файле AutoBuilders_Settings.sql в папке установленного мода Automated Builders + Archaeologists." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_ADVANCED" Text="Дополнительно" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_PERCITY" Text="Максимум уникальных улучшений одного типа на город:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_PERCITY_TOOLTIP" Text="Ограничивает число уникальных улучшений каждого типа, которые строители могут построить на территории одного города." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_EVER" Text="Максимум уникальных улучшений одного типа в цивилизации:" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_MAX_UNIQUES_EVER_TOOLTIP" Text="Ограничивает общее число уникальных улучшений каждого типа, которые строители могут построить в вашей цивилизации." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_DISTANCE" Text="Поправки за расстояние" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_SCORING" Text="Базовая оценка действий" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_PRIORITIES" Text="Оценка приоритета клеток" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES" Text="Ограничения уникальных улучшений" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES_PER_CITY" Text="(максимум на город)" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES_EVER" Text="(максимум в цивилизации)" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_IMPROVEMENT_SCORING" Text="Приоритеты улучшений" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_UNIQUES_IMPROVEMENT_SCORING" Text="Приоритеты уникальных улучшений" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_DISTANCE_TOOLTIP" Text="Поправка к оценке клетки в зависимости от расстояния до юнита." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_SCORING_TOOLTIP" Text="Базовая оценка клетки в зависимости от доступного строителю действия." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_PRIORITIES_TOOLTIP" Text="Действие с более высоким приоритетом выбирается как доступное действие для этой клетки." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_MAX_UNIQUES_TOOLTIP" Text="Максимальное число уникальных улучшений данного типа. Заменяет стандартное ограничение для этого улучшения." />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOBUILDER_SETTINGS_PRIORITIES_IMPROVEMENT_SCORING_TOOLTIP" Text="При одинаковом приоритете клетки выбирается улучшение с более высоким приоритетом." />
+    <Replace Language="ru_RU" Tag="LOC_AUTO_CITY" Text="Автоматическая очередь производства" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOUNITS_AUTOMATE_TOOLTIP" Text="Автоматизировать действия" />
+    <Replace Language="ru_RU" Tag="LOC_CNO_AUTOUNITS_STOP_AUTOMATE_TOOLTIP" Text="Остановить автоматизацию" />
+    <Replace Language="ru_RU" Tag="LOC_MOD_AUTOMATED_QUEUE_NAME" Text="Автоматическая очередь производства" />
+    <Replace Language="ru_RU" Tag="LOC_MOD_AUTOMATED_QUEUE_DESCRIPTION" Text="Автоматически выбирает следующую постройку в городе по заданным приоритетам и текущим потребностям, включая жильё и довольство. Включается отдельно для каждого города кнопкой в панели производства. Размещение районов на карте выбирается вручную. Приоритеты настраиваются в файле config.lua оригинального мода." />
+  </LocalizedText>
+</GameData>

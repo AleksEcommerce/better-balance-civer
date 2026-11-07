@@ -1,6 +1,8 @@
 # Включённые моды Civilization VI
 
-Список из журнала игры `Modding.log` от 05.11.2026 для последней сетевой конфигурации. Официальные дополнения и режимы Civilization VI в список не включены.
+Список из последней сетевой конфигурации в журнале игры `Modding.log` от 07.11.2026. Включение в журнале подтверждает выбор мода для партии, но не успешную работу каждого его компонента. Официальные дополнения и режимы Civilization VI в список не включены.
+
+Всего 79 модов — Better Balance Civer и 78 модов из Steam Workshop.
 
 - [Better Balance Civer](README.md)
 - [6T - Ancient Paragons (Great People Pack)](https://steamcommunity.com/sharedfiles/filedetails/?id=3085812151)
@@ -10,6 +12,8 @@
 - [Advanced Cheat Menu (Light) Hotseat patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3301274187)
 - [Aircraft Carriers Perfected](https://steamcommunity.com/sharedfiles/filedetails/?id=2645582640)
 - [ARS - More Players v2.4](https://steamcommunity.com/sharedfiles/filedetails/?id=2118297372)
+- [Automated Builders + Archaeologists Reloaded](https://steamcommunity.com/sharedfiles/filedetails/?id=2182724480)
+- [Automated Production Queue](https://steamcommunity.com/sharedfiles/filedetails/?id=3638124170)
 - [Better City States (UI)](https://steamcommunity.com/sharedfiles/filedetails/?id=2495851756)
 - [Better Espionage Screen (UI)](https://steamcommunity.com/sharedfiles/filedetails/?id=2913201420)
 - [Better Report Screen (UI)](https://steamcommunity.com/sharedfiles/filedetails/?id=1312585482)
@@ -79,3 +83,9 @@
 - [UC - District Expansion: Government](https://steamcommunity.com/sharedfiles/filedetails/?id=1684556488)
 - [UC - Specialist Progression](https://steamcommunity.com/sharedfiles/filedetails/?id=2482700851)
 - [Yet (not) Another Maps Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=871861883)
+
+## Русский перевод автоматизации
+
+Better Balance Civer добавляет русский интерфейс Automated Builders + Archaeologists Reloaded и перевод подсказки кнопки Automated Production Queue. Оба мода устанавливаются отдельно.
+
+Настройки строителей открываются в их панели автоматизации. Настройки автоматизации производства задаются в config.lua оригинального мода Automated Production Queue.

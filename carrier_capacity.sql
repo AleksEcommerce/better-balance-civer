@@ -28,3 +28,29 @@ UPDATE Units SET BaseSightRange = 3
 WHERE UnitType = 'UNIT_AIRCRAFT_CARRIER'
    OR UnitType IN (SELECT CivUniqueUnitType FROM UnitReplaces
                    WHERE ReplacesUnitType = 'UNIT_AIRCRAFT_CARRIER');
+
+-- Ford-class carrier combat strength.
+UPDATE Units SET Combat = 75 WHERE UnitType = 'UNIT_FORD_CARRIER';
+
+-- Guidance Systems improves all existing and future standard/unique carriers.
+INSERT INTO Types (Type, Kind) VALUES ('BBC_CARRIER_GUIDANCE_AA', 'KIND_MODIFIER');
+INSERT INTO DynamicModifiers (ModifierType, CollectionType, EffectType) VALUES
+('BBC_CARRIER_GUIDANCE_AA', 'COLLECTION_PLAYER_UNITS', 'EFFECT_ADJUST_UNIT_ANTI_AIR_STRENGTH');
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
+('BBC_CARRIER_GUIDANCE_REQUIREMENTS', 'REQUIREMENTSET_TEST_ANY');
+INSERT INTO Requirements (RequirementId, RequirementType)
+SELECT 'BBC_CARRIER_GUIDANCE_' || UnitType, 'REQUIREMENT_UNIT_TYPE_MATCHES'
+FROM Units WHERE UnitType = 'UNIT_AIRCRAFT_CARRIER'
+OR UnitType IN (SELECT CivUniqueUnitType FROM UnitReplaces WHERE ReplacesUnitType = 'UNIT_AIRCRAFT_CARRIER');
+INSERT INTO RequirementArguments (RequirementId, Name, Value)
+SELECT RequirementId, 'UnitType', SUBSTR(RequirementId, LENGTH('BBC_CARRIER_GUIDANCE_') + 1)
+FROM Requirements WHERE RequirementId GLOB 'BBC_CARRIER_GUIDANCE_UNIT_*';
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId)
+SELECT 'BBC_CARRIER_GUIDANCE_REQUIREMENTS', RequirementId
+FROM Requirements WHERE RequirementId GLOB 'BBC_CARRIER_GUIDANCE_UNIT_*';
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('BBC_CARRIER_GUIDANCE_BONUS', 'BBC_CARRIER_GUIDANCE_AA', 'BBC_CARRIER_GUIDANCE_REQUIREMENTS');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('BBC_CARRIER_GUIDANCE_BONUS', 'Amount', 10);
+INSERT INTO TechnologyModifiers (TechnologyType, ModifierId) VALUES
+('TECH_GUIDANCE_SYSTEMS', 'BBC_CARRIER_GUIDANCE_BONUS');
