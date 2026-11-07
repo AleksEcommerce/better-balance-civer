@@ -1,13 +1,14 @@
-# Включённые моды Civilization VI
+# Моды Civilization VI
 
-Список из последней сетевой конфигурации в журнале игры `Modding.log` от 07.11.2026. Включение в журнале подтверждает выбор мода для партии, но не успешную работу каждого его компонента. Официальные дополнения и режимы Civilization VI в список не включены.
+Состав проверен 07.11.2026 по установленным файлам Workshop и локальной папке модов. Последний журнал игры содержит конфигурацию до отключения перенесённых модов.
 
-Всего 79 модов — Better Balance Civer и 78 модов из Steam Workshop.
+**Установлено 70 модов** — 69 из Steam Workshop и Better Balance Civer. Ниже приведён основной набор из **69 модов**, включая Better Balance Civer. Ещё установленный Enable All вынесен в отдельный раздел. Наличие файлов не подтверждает включение в текущем меню игры. Официальные дополнения и режимы Civilization VI в эти количества не входят.
+
+## Основной набор
 
 - [Better Balance Civer](README.md)
 - [6T - Ancient Paragons (Great People Pack)](https://steamcommunity.com/sharedfiles/filedetails/?id=3085812151)
 - [\[UI\] Show All Trade Route Paths](https://steamcommunity.com/sharedfiles/filedetails/?id=3572768483)
-- [Absolutely Safe Nuclear Power Plants](https://steamcommunity.com/sharedfiles/filedetails/?id=3147392979)
 - [Advanced Cheat Menu (Light)](https://steamcommunity.com/sharedfiles/filedetails/?id=1528155583)
 - [Advanced Cheat Menu (Light) Hotseat patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3301274187)
 - [Aircraft Carriers Perfected](https://steamcommunity.com/sharedfiles/filedetails/?id=2645582640)
@@ -19,16 +20,11 @@
 - [Better Report Screen (UI)](https://steamcommunity.com/sharedfiles/filedetails/?id=1312585482)
 - [Better Unit List](https://steamcommunity.com/sharedfiles/filedetails/?id=1618650715)
 - [Better World Rankings (UI)](https://steamcommunity.com/sharedfiles/filedetails/?id=2139486665)
-- [CB - 3x Slower Global Warming](https://steamcommunity.com/sharedfiles/filedetails/?id=1687938581)
-- [CB - Clean Nuclear Power](https://steamcommunity.com/sharedfiles/filedetails/?id=1687898469)
-- [CB - Flood Barriers: Cost Scaling Adjustment](https://steamcommunity.com/sharedfiles/filedetails/?id=1687897709)
 - [Community Quick User Interface (CQUI)](https://steamcommunity.com/sharedfiles/filedetails/?id=2115302648)
 - [Detailed Map Tacks](https://steamcommunity.com/sharedfiles/filedetails/?id=2428969051)
 - [Earth 2020 Civs](https://steamcommunity.com/sharedfiles/filedetails/?id=2010548181)
-- [Engineers can rush Walls](https://steamcommunity.com/sharedfiles/filedetails/?id=1940096459)
 - [Enhanced Mod Manager](https://steamcommunity.com/sharedfiles/filedetails/?id=1601259406)
 - [EpsTweak for Nukes: Damage](https://steamcommunity.com/sharedfiles/filedetails/?id=2100343084)
-- [Expanded Initial Vision](https://steamcommunity.com/sharedfiles/filedetails/?id=970242434)
 - [Extended Policy Cards](https://steamcommunity.com/sharedfiles/filedetails/?id=2266952591)
 - [Flying Units Expantion](https://steamcommunity.com/sharedfiles/filedetails/?id=2795915611)
 - [Gift It To Me. CQUI Compatibility Version](https://steamcommunity.com/sharedfiles/filedetails/?id=2991439270)
@@ -50,7 +46,6 @@
 - [Military Engineer Builds Canal](https://steamcommunity.com/sharedfiles/filedetails/?id=3645590802)
 - [Modern Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=2789835828)
 - [Multiplayer Helper 1.6.7](https://steamcommunity.com/sharedfiles/filedetails/?id=2357532056)
-- [Observation Units Ignore Rivers](https://steamcommunity.com/sharedfiles/filedetails/?id=2803846980)
 - [Policy Change Reminder](https://steamcommunity.com/sharedfiles/filedetails/?id=1132600299)
 - [Policy Pack: Corporations](https://steamcommunity.com/sharedfiles/filedetails/?id=2857099961)
 - [Policy Pack: Environment](https://steamcommunity.com/sharedfiles/filedetails/?id=2887811648)
@@ -65,9 +60,7 @@
 - [Real Great People](https://steamcommunity.com/sharedfiles/filedetails/?id=900089445)
 - [Removable Districts](https://steamcommunity.com/sharedfiles/filedetails/?id=970184582)
 - [Resourceful 2](https://steamcommunity.com/sharedfiles/filedetails/?id=1369684991)
-- [Starting Scout](https://steamcommunity.com/sharedfiles/filedetails/?id=872293659)
 - [Steel and Thunder: Unique Units](https://steamcommunity.com/sharedfiles/filedetails/?id=1362931045)
-- [Steel and Thunder: Unique Units - Enable All](https://steamcommunity.com/sharedfiles/filedetails/?id=1832546250)
 - [Steel and Thunder: Unit Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=1292617460)
 - [STRUDELER'S CIVILIZATIONS: UKRAINE 1.1.0](https://steamcommunity.com/sharedfiles/filedetails/?id=2815366070)
 - [Sukritact's Global Relations Panel](https://steamcommunity.com/sharedfiles/filedetails/?id=1753346735)
@@ -78,7 +71,6 @@
 - [Take your Time Ultimate - Slower Research Trees](https://steamcommunity.com/sharedfiles/filedetails/?id=2176927489)
 - [Truly Abundant Resources](https://steamcommunity.com/sharedfiles/filedetails/?id=901009089)
 - [TSL Earth Remastered](https://steamcommunity.com/sharedfiles/filedetails/?id=1290583081)
-- [UC - Builder Charges for Housing](https://steamcommunity.com/sharedfiles/filedetails/?id=1738051804)
 - [UC - District Expansion: Diplomacy](https://steamcommunity.com/sharedfiles/filedetails/?id=3274887709)
 - [UC - District Expansion: Government](https://steamcommunity.com/sharedfiles/filedetails/?id=1684556488)
 - [UC - Specialist Progression](https://steamcommunity.com/sharedfiles/filedetails/?id=2482700851)
@@ -89,3 +81,30 @@
 Better Balance Civer добавляет русский интерфейс Automated Builders + Archaeologists Reloaded и перевод подсказки кнопки Automated Production Queue. Оба мода устанавливаются отдельно.
 
 Настройки строителей открываются в их панели автоматизации. Настройки автоматизации производства задаются в config.lua оригинального мода Automated Production Queue.
+
+
+## Дополнительно установлен
+
+[Steel and Thunder: Unique Units — Enable All](https://steamcommunity.com/sharedfiles/filedetails/?id=1832546250) ещё присутствует в Workshop. Его функцию выполняет Better Balance Civer, поэтому отдельное дополнение можно отключить. После отключения основной набор составит 69 модов, хотя файлов установленных модов может оставаться 70 до отписки.
+
+Основные Steel and Thunder: Unique Units и Steel and Thunder: Unit Expansion входят в список выше и должны оставаться включёнными.
+
+## Функции, перенесённые в Better Balance Civer
+
+| Оригинальный мод | Перенесённая функция | Установленные файлы оригинала |
+|---|---|---|
+| [Expanded Initial Vision](https://steamcommunity.com/sharedfiles/filedetails/?id=970242434) | Раскрытие стартовой карты, радиус 20 клеток для каждого человека | Удалены |
+| [CB — 3x Slower Global Warming](https://steamcommunity.com/sharedfiles/filedetails/?id=1687938581) | Порог CO₂ для повышения температуры ×3 | Удалены |
+| [CB — Clean Nuclear Power](https://steamcommunity.com/sharedfiles/filedetails/?id=1687898469) | Выбросы от урана −75% | Удалены |
+| [Absolutely Safe Nuclear Power Plants](https://steamcommunity.com/sharedfiles/filedetails/?id=3147392979) | Работа АЭС без аварий, удаление проекта обновления реактора | Удалены |
+| [CB — Flood Barriers: Cost Scaling Adjustment](https://steamcommunity.com/sharedfiles/filedetails/?id=1687897709) | Стоимость дамбы 300, множитель от количества клеток 0 | Удалены |
+| [Observation Units Ignore Rivers](https://steamcommunity.com/sharedfiles/filedetails/?id=2803846980) | Воздушный шар и беспилотник игнорируют штраф движения через реки | Удалены |
+| [Starting Scout](https://steamcommunity.com/sharedfiles/filedetails/?id=872293659) | Дополнительный разведчик при старте в Древнем мире | Удалены |
+| [UC — Builder Charges for Housing](https://steamcommunity.com/sharedfiles/filedetails/?id=1738051804) | Заряды строителей ускоряют акведуки и пригороды, легионов и тоа — военные лагеря | Удалены |
+| [Steel and Thunder: Unique Units — Enable All](https://steamcommunity.com/sharedfiles/filedetails/?id=1832546250) | Включение всех дополнительных юнитов основного Steel and Thunder | Ещё установлены |
+
+Для восьми небольших переносов добавлены критерии загрузки, которые пропускают нашу версию при активном оригинале. Перед новой партией проверьте согласованный набор у всех участников.
+
+## Исключено из набора
+
+[Engineers can rush Walls](https://steamcommunity.com/sharedfiles/filedetails/?id=1940096459) удалён из установленных модов по просьбе пользователя.
