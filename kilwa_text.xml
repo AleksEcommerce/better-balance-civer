@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_KILWA_KISIWANI_DESCRIPTION" Text="+3 [ICON_ENVOY] посла при завершении строительства. За сюзеренитет над городом-государством город с Килвой получает +15% к соответствующему типу дохода. Если вы сюзерен двух или более городов-государств одного типа, город с Килвой получает ещё +15% (суммарно +30%), а остальные ваши города получают +7% к соответствующему типу дохода. Строится на ровной клетке рядом с побережьем." />
+    <Replace Language="en_US" Tag="LOC_BUILDING_KILWA_KISIWANI_DESCRIPTION" Text="+3 [ICON_ENVOY] Envoys when built. When you are the Suzerain of a city-state, the city with Kilwa receives +15% to the corresponding yield type. With 2 or more city-states of the same type, the Kilwa city receives another +15% (+30% total), while your other cities receive +7% to that yield type. Must be built on flat land adjacent to the Coast." />
+  </LocalizedText>
+</GameData>
