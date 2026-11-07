@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="ru_RU" Tag="LOC_BBC_AI_GIFT_ANTIAIR_DESCRIPTION" Text="Подарочная зенитная пушка. Характеристики обычной зенитной пушки; содержание в золоте и ресурсах отсутствует. Не строится, не покупается и не улучшается." />
+    <Replace Language="en_US" Tag="LOC_BBC_AI_GIFT_ANTIAIR_DESCRIPTION" Text="Gift Anti-Air Gun. Standard Anti-Air Gun stats; no Gold or resource upkeep. Cannot be trained, purchased or upgraded." />
+  </LocalizedText>
+</GameData>

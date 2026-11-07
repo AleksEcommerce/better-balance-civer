@@ -5,8 +5,8 @@ DELETE FROM UnitUpgrades WHERE Unit = 'UNIT_DLV_MORTAR' AND UpgradeUnit = 'UNIT_
 INSERT OR IGNORE INTO TypeTags (Type, Tag)
 SELECT UnitType, 'CLASS_FORWARD_OBSERVER' FROM Units WHERE UnitType = 'UNIT_DLV_MORTAR';
 
--- A separately built three-shot rocket artillery unit, using the existing model.
-UPDATE Units SET Range = 8 WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
+-- A separately built rocket artillery unit, using the existing model.
+UPDATE Units SET Range = 8, Maintenance = 12, Combat = 50 WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
 UPDATE Units SET Description = 'LOC_BBC_ROCKET_ARTILLERY_DESCRIPTION' WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
 UPDATE Units SET Description = 'LOC_BBC_MORTAR_DESCRIPTION' WHERE UnitType = 'UNIT_DLV_MORTAR';
 
@@ -33,3 +33,9 @@ INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
 ('BBC_MORTAR_DRONE_STRENGTH', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'BBC_MORTAR_DRONE_ATTACK_REQUIREMENTS');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BBC_MORTAR_DRONE_STRENGTH', 'Amount', 10);
 INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES ('ABILITY_BBC_MORTAR_DRONE', 'BBC_MORTAR_DRONE_STRENGTH');
+
+-- Native unobstructed view, restricted to rocket artillery. Does not increase sight radius.
+INSERT INTO Tags (Tag, Vocabulary) VALUES ('BBC_CLASS_ROCKET_INDIRECT', 'ABILITY_CLASS');
+INSERT INTO TypeTags (Type, Tag) VALUES
+('UNIT_ROCKET_ARTILLERY', 'BBC_CLASS_ROCKET_INDIRECT'),
+('ABILITY_UNOBSTRUCTED_VIEW', 'BBC_CLASS_ROCKET_INDIRECT');

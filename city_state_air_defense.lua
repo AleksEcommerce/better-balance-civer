@@ -1,9 +1,9 @@
--- One AA gun per city-state once any major civilization has Advanced Flight.
+-- One zero-upkeep gift AA gun per city-state once any major has Advanced Flight.
 -- Save properties persist eligibility and successful grants across reloads.
 local UNLOCKED = "BBC_CITYSTATE_AA_UNLOCKED"
 local GRANTED = "BBC_CITYSTATE_AA_GRANTED"
 local TECH = GameInfo.Technologies["TECH_ADVANCED_FLIGHT"]
-local UNIT = GameInfo.Units["UNIT_ANTIAIR_GUN"]
+local UNIT = GameInfo.Units["UNIT_BBC_AI_GIFT_ANTIAIR"]
 
 local function TryGrantAirDefense()
     if not TECH or not UNIT then return end

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameInfo>
+  <IconDefinitions>
+    <Row Name="ICON_PROMOTION_BBC_ROCKET_FIRE_CONTROL" Atlas="ICON_ATLAS_PROMOTIONS" Index="3" />
+    <Row Name="ICON_PROMOTION_BBC_ROCKET_ANTI_SHIP" Atlas="ICON_ATLAS_PROMOTIONS" Index="7" />
+    <Row Name="ICON_PROMOTION_BBC_ROCKET_BUNKER_BUSTER" Atlas="ICON_ATLAS_PROMOTIONS" Index="2" />
+    <Row Name="ICON_PROMOTION_BBC_ROCKET_MOBILE_BATTERY" Atlas="ICON_ATLAS_PROMOTIONS" Index="21" />
+    <Row Name="ICON_PROMOTION_BBC_ROCKET_FAST_RELOAD" Atlas="ICON_ATLAS_PROMOTIONS" Index="0" />
+  </IconDefinitions>
+</GameInfo>

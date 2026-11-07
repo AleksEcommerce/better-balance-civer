@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_CLASS_BBC_ROCKET_NAME" Text="Ракетные установки" />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_CLASS_BBC_ROCKET_NAME" Text="Rocket Launchers" />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_NAME" Text="Корректировка огня" />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_DESCRIPTION" Text="+7 к силе обстрела против наземных юнитов." />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_NAME" Text="Fire Control" />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_DESCRIPTION" Text="+7 Ranged Strength when attacking land units." />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_ANTI_SHIP_NAME" Text="Противокорабельные ракеты" />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_ANTI_SHIP_DESCRIPTION" Text="+7 к силе обстрела против морских юнитов." />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_ANTI_SHIP_NAME" Text="Anti-Ship Missiles" />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_ANTI_SHIP_DESCRIPTION" Text="+7 Ranged Strength when attacking naval units." />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_BUNKER_BUSTER_NAME" Text="Бетонобойные боеприпасы" />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_BUNKER_BUSTER_DESCRIPTION" Text="+7 к силе обстрела против укреплений районов, включая центр города." />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_BUNKER_BUSTER_NAME" Text="Bunker-Busting Warheads" />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_BUNKER_BUSTER_DESCRIPTION" Text="+7 Ranged Strength against district defenses, including City Centers." />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_MOBILE_BATTERY_NAME" Text="Мобильная батарея" />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_MOBILE_BATTERY_DESCRIPTION" Text="+1 к движению." />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_MOBILE_BATTERY_NAME" Text="Mobile Battery" />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_MOBILE_BATTERY_DESCRIPTION" Text="+1 Movement." />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_FAST_RELOAD_NAME" Text="Скоростная перезарядка" />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_FAST_RELOAD_DESCRIPTION" Text="+1 дополнительная атака за ход, если юнит не двигался." />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_FAST_RELOAD_NAME" Text="Rapid Reload" />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_FAST_RELOAD_DESCRIPTION" Text="+1 additional attack per turn if the unit has not moved." />
+  </LocalizedText>
+</GameData>
