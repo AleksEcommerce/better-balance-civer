@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData><LocalizedText>
+<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_PENA_NIETO_DESCRIPTION"><Text>+100% [ICON_Production] Production toward Commercial Hub and Harbor districts. Oil Wells and Offshore Oil Rigs yield +2 [ICON_Gold] Gold.</Text></Replace>
+<Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_PENA_NIETO_DESCRIPTION"><Text>+100% [ICON_Production] производства при строительстве коммерческих центров и гаваней. Нефтяные вышки и морские нефтяные платформы дают +2 [ICON_Gold] золота.</Text></Replace>
+</LocalizedText></GameData>

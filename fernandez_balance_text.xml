@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="en_US" Tag="LOC_TRAIT_LEADER_FERNANDEZ_DESCRIPTION"><Text>Cities with an established Governor receive +3% [ICON_Gold] Gold and +3% [ICON_Production] Production for each promotion that Governor has.</Text></Replace>
+    <Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_FERNANDEZ_DESCRIPTION"><Text>Города с утвердившимся губернатором получают +3% [ICON_Gold] золота и +3% [ICON_Production] производства за каждое повышение этого губернатора.</Text></Replace>
+  </LocalizedText>
+</GameData>

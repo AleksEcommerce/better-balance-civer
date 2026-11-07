@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData><LocalizedText>
+<Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_ERDOGAN_DESCRIPTION"><Text>Столица получает +15% [ICON_Food] пищи, [ICON_Production] производства, [ICON_Gold] золота, [ICON_Science] науки, [ICON_Culture] культуры и [ICON_Faith] веры.</Text></Replace>
+<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_ERDOGAN_DESCRIPTION"><Text>The capital receives +15% [ICON_Food] Food, [ICON_Production] Production, [ICON_Gold] Gold, [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Faith] Faith.</Text></Replace>
+</LocalizedText></GameData>

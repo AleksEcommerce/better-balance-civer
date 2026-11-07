@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData><LocalizedText>
+<Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_TRUDEAU_NAME"><Text>Развитие Севера</Text></Replace>
+<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_TRUDEAU_NAME"><Text>Northern Development</Text></Replace>
+<Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_TRUDEAU_DESCRIPTION"><Text>Получает два случайных вдохновения при вступлении в новую эпоху. Фермы, шахты и лесопилки на тундре и тундровых холмах дают +1 [ICON_Production] производства. Может строить фермы в тундре, а после открытия «Гражданского строительства» — и на тундровых холмах.</Text></Replace>
+<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_TRUDEAU_DESCRIPTION"><Text>Receive two random Inspirations whenever you enter a new era. Farms, Mines and Lumber Mills on Tundra and Tundra Hills provide +1 [ICON_Production] Production. Can build Farms on Tundra, and on Tundra Hills after unlocking Civil Engineering.</Text></Replace>
+</LocalizedText></GameData>

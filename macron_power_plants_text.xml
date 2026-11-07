@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData><LocalizedText>
+<Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_MACRON_DESCRIPTION"><Text>Банки и фондовые биржи дают +2 [ICON_Gold] золота, исследовательские лаборатории — +2 [ICON_Science] науки, угольные, нефтяные, атомные и газовые электростанции — +10 [ICON_Production] производства.</Text></Replace>
+<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_MACRON_DESCRIPTION"><Text>Banks and Stock Exchanges provide +2 [ICON_Gold] Gold, Research Labs provide +2 [ICON_Science] Science, and Coal, Oil, Nuclear and Natural Gas Power Plants provide +10 [ICON_Production] Production.</Text></Replace>
+</LocalizedText></GameData>

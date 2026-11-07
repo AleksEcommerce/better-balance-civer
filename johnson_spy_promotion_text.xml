@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="en_US" Tag="LOC_TRAIT_LEADER_JOHNSON_DESCRIPTION"><Text>+100% Alliance Points from trading with Allies. Grievances against this leader decay at twice the usual rate. Spies receive the Seduction promotion for counterspying.</Text></Replace>
+    <Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_JOHNSON_DESCRIPTION"><Text>+100% очков союза от торговли с союзниками. Претензии к этому лидеру ослабевают вдвое быстрее. Шпионы получают повышение «Соблазнение» для контрразведки.</Text></Replace>
+  </LocalizedText>
+</GameData>

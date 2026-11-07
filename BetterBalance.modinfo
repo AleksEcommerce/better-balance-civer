@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Mod id="better-balance-mod" version="4">
   <Properties>
     <Name>Better Balance Civer</Name>
@@ -51,6 +51,46 @@
       <Properties><LoadOrder>4</LoadOrder></Properties>
       <File>Integrated/unique_units_all_config.sql</File>
     </UpdateDatabase>
+  <UpdateText id="BetterBalanceJohnsonSpyTextConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>johnson_spy_promotion_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalanceFernandezTextConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>fernandez_balance_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalanceMerkelTextConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>merkel_technologies_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalanceSisiTextConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>sisi_floodplain_farms_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalanceIndonesiaHarborTextConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>indonesia_harbor_balance_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalanceTrudeauTextConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>trudeau_northern_development_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalancePenaNietoTextConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>pena_nieto_districts_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalancePutinDescriptionConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>putin_description_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalanceErdoganTextConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>erdogan_capital_yields_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalanceMacronTextConfig">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>macron_power_plants_text.xml</File>
+    </UpdateText>
   </FrontEndActions>
 
   <InGameActions>
@@ -336,6 +376,82 @@
       <Properties><LoadOrder>100110</LoadOrder></Properties>
       <File>ford_borders_text.xml</File>
     </UpdateText>
+  <UpdateText id="BetterBalanceJohnsonSpyTextGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>johnson_spy_promotion_text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="BetterBalanceJohnsonSpyPromotion">
+      <Properties><LoadOrder>100100</LoadOrder></Properties>
+      <File>johnson_spy_promotion.sql</File>
+    </UpdateDatabase>
+  <UpdateText id="BetterBalanceFernandezTextGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>fernandez_balance_text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="BetterBalanceFernandezBalance">
+      <Properties><LoadOrder>100100</LoadOrder></Properties>
+      <File>fernandez_balance.sql</File>
+    </UpdateDatabase>
+  <UpdateText id="BetterBalanceMerkelTextGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>merkel_technologies_text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="BetterBalanceMerkelTechnologies">
+      <Properties><LoadOrder>100100</LoadOrder></Properties>
+      <File>merkel_technologies.sql</File>
+    </UpdateDatabase>
+  <UpdateText id="BetterBalanceSisiTextGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>sisi_floodplain_farms_text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="BetterBalanceSisiFloodplainFarms">
+      <Properties><LoadOrder>100100</LoadOrder></Properties>
+      <File>sisi_floodplain_farms.sql</File>
+    </UpdateDatabase>
+  <UpdateText id="BetterBalanceIndonesiaHarborTextGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>indonesia_harbor_balance_text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="BetterBalanceIndonesiaHarbor">
+      <Properties><LoadOrder>100100</LoadOrder></Properties>
+      <File>indonesia_harbor_balance.sql</File>
+    </UpdateDatabase>
+  <UpdateText id="BetterBalanceTrudeauTextGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>trudeau_northern_development_text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="BetterBalanceTrudeauNorthernDevelopment">
+      <Properties><LoadOrder>100100</LoadOrder></Properties>
+      <File>trudeau_northern_development.sql</File>
+    </UpdateDatabase>
+  <UpdateText id="BetterBalancePenaNietoTextGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>pena_nieto_districts_text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="BetterBalancePenaNietoDistricts">
+      <Properties><LoadOrder>100100</LoadOrder></Properties>
+      <File>pena_nieto_districts.sql</File>
+    </UpdateDatabase>
+  <UpdateText id="BetterBalancePutinDescriptionGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>putin_description_text.xml</File>
+    </UpdateText>
+  <UpdateText id="BetterBalanceErdoganTextGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>erdogan_capital_yields_text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="BetterBalanceErdoganCapitalYields">
+      <Properties><LoadOrder>100100</LoadOrder></Properties>
+      <File>erdogan_capital_yields.sql</File>
+    </UpdateDatabase>
+  <UpdateText id="BetterBalanceMacronTextGame">
+      <Properties><LoadOrder>100120</LoadOrder></Properties>
+      <File>macron_power_plants_text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="BetterBalanceMacronPowerPlants">
+      <Properties><LoadOrder>100100</LoadOrder></Properties>
+      <File>macron_power_plants.sql</File>
+    </UpdateDatabase>
   </InGameActions>
 
   <Files>
@@ -412,5 +528,24 @@
     <File>kilwa_text.xml</File>
     <File>ford_borders.sql</File>
     <File>ford_borders_text.xml</File>
-  </Files>
+  <File>johnson_spy_promotion.sql</File>
+    <File>johnson_spy_promotion_text.xml</File>
+    <File>fernandez_balance.sql</File>
+    <File>fernandez_balance_text.xml</File>
+    <File>merkel_technologies.sql</File>
+    <File>merkel_technologies_text.xml</File>
+    <File>sisi_floodplain_farms.sql</File>
+    <File>sisi_floodplain_farms_text.xml</File>
+    <File>indonesia_harbor_balance.sql</File>
+    <File>indonesia_harbor_balance_text.xml</File>
+    <File>trudeau_northern_development.sql</File>
+    <File>trudeau_northern_development_text.xml</File>
+    <File>pena_nieto_districts.sql</File>
+    <File>pena_nieto_districts_text.xml</File>
+    <File>putin_description_text.xml</File>
+    <File>erdogan_capital_yields.sql</File>
+    <File>erdogan_capital_yields_text.xml</File>
+    <File>macron_power_plants.sql</File>
+    <File>macron_power_plants_text.xml</File>
+    </Files>
 </Mod>
