@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="ru_RU" Tag="LOC_ABILITY_STEALTH_FIGHTER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] к боевой мощи против истребителей и ПВО.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_ABILITY_STEALTH_FIGHTER_DESCRIPTION">
+      <Text>+5 [ICON_Strength] Combat Strength against Fighter and Anti-Air units.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_F35_LIGHTNING_II_DESCRIPTION">
+      <Text>Уникальный юнит, заменяющий реактивный истребитель. Обладает повышенной боевой мощью. Способность «Стелс» даёт +5 [ICON_Strength] к боевой мощи против истребителей и ПВО.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_F35_LIGHTNING_II_DESCRIPTION">
+      <Text>Unique unit that replaces the Jet Fighter. Has increased Combat Strength. Stealth grants +5 [ICON_Strength] Combat Strength against Fighter and Anti-Air units.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_CHENGDU_J20_DESCRIPTION">
+      <Text>Уникальный юнит, заменяющий реактивный истребитель. Обладает повышенной боевой мощью и дальностью. Способность «Стелс» даёт +5 [ICON_Strength] к боевой мощи против истребителей и ПВО.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_CHENGDU_J20_DESCRIPTION">
+      <Text>Unique unit that replaces the Jet Fighter. Has increased Combat Strength and range. Stealth grants +5 [ICON_Strength] Combat Strength against Fighter and Anti-Air units.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>
