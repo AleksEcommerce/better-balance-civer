@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+    <Button ID="RoadTargetCapture" Size="parent,parent" Anchor="C,C" Hidden="1" ConsumeMouse="1" />
+    <Grid ID="RoadTargetHint" Anchor="C,T" Offset="0,100" Size="650,55" Hidden="1" ConsumeMouse="1">
+        <Label Anchor="C,C" Style="FontNormal16" String="Выберите конечную клетку левой или правой кнопкой мыши. Esc — отмена." WrapWidth="640" />
+    </Grid>
+    <Grid ID="BuildRouteGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+		<Button ID="BuildRouteButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+			<Image ID="BuildRouteButtonIcon"		Anchor="C,C" Offset="0,-2" Size="38,38"  Icon="ICON_UNITOPERATION_BUILD_ROUTE"/>
+		</Button>
+    </Grid>
+</Context>

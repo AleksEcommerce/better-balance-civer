@@ -1,8 +1,8 @@
 # Моды Civilization VI
 
-Состав проверен 08.11.2026 по установленным файлам Workshop, локальной папке модов, журналу Modding.log и выбранной группе в Mods.sqlite.
+Состав повторно проверен 08.11.2026 по установленным файлам Workshop и выбранной группе Mods.sqlite. Журнал Modding.log относится к предыдущему запуску и не используется как подтверждение текущих переключателей.
 
-**Установлено 62 мода** — 61 из Steam Workshop и Better Balance Civer. В последней конфигурации включён 61 Workshop-мод, включая Enable All, а Better Balance Civer отключён. Пока наш мод отключён, его изменения не применяются.
+**Установлено 62 мода** — 61 из Steam Workshop и Better Balance Civer. В выбранной группе Mods.sqlite включены все 61 установленных Workshop-мода, включая Enable All, и Better Balance Civer. Таким образом, в текущей группе включено 62 мода.
 
 Рекомендуемый основной набор ниже содержит **61 мод** — Better Balance Civer и 60 Workshop-модов. Для такого набора включите Better Balance Civer и отключите отдельный Enable All. Официальные дополнения и режимы Civilization VI в эти количества не входят.
 
@@ -115,3 +115,7 @@ Better Balance Civer добавляет русский интерфейс Automa
 - [JFD's Советский Союз: Ленин](https://steamcommunity.com/sharedfiles/filedetails/?id=2675642755)
 
 Эти восемь дополнительных пакетов JFD исключены из основного набора. Остальные установленные пакеты, включая JFD Churchill и советские пакеты, перечислены выше.
+
+## Встроенная автопрокладка дорог
+
+[Auto Build Road: Builders and Military Engineers](https://steamcommunity.com/sharedfiles/filedetails/?id=3592659261) послужил основой идеи интеграции в Better Balance Civer. Отдельный Workshop-мод отсутствует в установленной папке, поэтому включение этой функции в наш мод не меняет количество модов. Подробности находятся в [README](Integrated/AutoRoads/README.md).
