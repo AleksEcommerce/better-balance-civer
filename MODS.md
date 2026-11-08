@@ -1,8 +1,10 @@
 # Моды Civilization VI
 
-Состав проверен 07.11.2026 по установленным файлам Workshop и локальной папке модов. Последний журнал игры содержит конфигурацию до отключения перенесённых модов.
+Состав проверен 08.11.2026 по установленным файлам Workshop, локальной папке модов, журналу Modding.log и выбранной группе в Mods.sqlite.
 
-**Установлено 70 модов** — 69 из Steam Workshop и Better Balance Civer. Ниже приведён основной набор из **69 модов**, включая Better Balance Civer. Ещё установленный Enable All вынесен в отдельный раздел. Наличие файлов не подтверждает включение в текущем меню игры. Официальные дополнения и режимы Civilization VI в эти количества не входят.
+**Установлено 62 мода** — 61 из Steam Workshop и Better Balance Civer. В последней конфигурации включён 61 Workshop-мод, включая Enable All, а Better Balance Civer отключён. Пока наш мод отключён, его изменения не применяются.
+
+Рекомендуемый основной набор ниже содержит **61 мод** — Better Balance Civer и 60 Workshop-модов. Для такого набора включите Better Balance Civer и отключите отдельный Enable All. Официальные дополнения и режимы Civilization VI в эти количества не входят.
 
 ## Основной набор
 
@@ -31,17 +33,9 @@
 - [Great Works Viewer](https://steamcommunity.com/sharedfiles/filedetails/?id=1652106496)
 - [Honor and Glory - Leaders, Civilizations and Religions](https://steamcommunity.com/sharedfiles/filedetails/?id=2019545304)
 - [Icebreaker](https://steamcommunity.com/sharedfiles/filedetails/?id=2785913621)
-- [JFD's America: Donald Trump](https://steamcommunity.com/sharedfiles/filedetails/?id=1553667150)
 - [JFD's England: Winston Churchill](https://steamcommunity.com/sharedfiles/filedetails/?id=1308751267)
-- [JFD's France: Charles de Gaulle](https://steamcommunity.com/sharedfiles/filedetails/?id=1306841085)
-- [JFD's Germany: Wilhelm I](https://steamcommunity.com/sharedfiles/filedetails/?id=1601009316)
-- [JFD's Italy](https://steamcommunity.com/sharedfiles/filedetails/?id=939986443)
-- [JFD's Italy: Benito Mussolini](https://steamcommunity.com/sharedfiles/filedetails/?id=1587518150)
-- [JFD's Japan: Meiji](https://steamcommunity.com/sharedfiles/filedetails/?id=2149319617)
-- [JFD's Russia: Vladimir Putin](https://steamcommunity.com/sharedfiles/filedetails/?id=1310706235)
 - [JFD's Советский Союз](https://steamcommunity.com/sharedfiles/filedetails/?id=2675639025)
 - [JFD's Советский Союз: Иосиф Сталин](https://steamcommunity.com/sharedfiles/filedetails/?id=2675646084)
-- [JFD's Советский Союз: Ленин](https://steamcommunity.com/sharedfiles/filedetails/?id=2675642755)
 - [Map Search Extension](https://steamcommunity.com/sharedfiles/filedetails/?id=1709115371)
 - [Military Engineer Builds Canal](https://steamcommunity.com/sharedfiles/filedetails/?id=3645590802)
 - [Modern Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=2789835828)
@@ -85,7 +79,7 @@ Better Balance Civer добавляет русский интерфейс Automa
 
 ## Дополнительно установлен
 
-[Steel and Thunder: Unique Units — Enable All](https://steamcommunity.com/sharedfiles/filedetails/?id=1832546250) ещё присутствует в Workshop. Его функцию выполняет Better Balance Civer, поэтому отдельное дополнение можно отключить. После отключения основной набор составит 69 модов, хотя файлов установленных модов может оставаться 70 до отписки.
+[Steel and Thunder: Unique Units — Enable All](https://steamcommunity.com/sharedfiles/filedetails/?id=1832546250) ещё присутствует в Workshop. Его функцию выполняет Better Balance Civer, поэтому отдельное дополнение можно отключить. В последней конфигурации он включён. После включения Better Balance Civer и отключения Enable All основной набор составит 61 мод, хотя установленных файловых комплектов останется 62 до отписки.
 
 Основные Steel and Thunder: Unique Units и Steel and Thunder: Unit Expansion входят в список выше и должны оставаться включёнными.
 
@@ -108,3 +102,16 @@ Better Balance Civer добавляет русский интерфейс Automa
 ## Исключено из набора
 
 [Engineers can rush Walls](https://steamcommunity.com/sharedfiles/filedetails/?id=1940096459) удалён из установленных модов по просьбе пользователя.
+
+## Удалены из установленных 08.11.2026
+
+- [JFD's America: Donald Trump](https://steamcommunity.com/sharedfiles/filedetails/?id=1553667150)
+- [JFD's France: Charles de Gaulle](https://steamcommunity.com/sharedfiles/filedetails/?id=1306841085)
+- [JFD's Germany: Wilhelm I](https://steamcommunity.com/sharedfiles/filedetails/?id=1601009316)
+- [JFD's Italy](https://steamcommunity.com/sharedfiles/filedetails/?id=939986443)
+- [JFD's Italy: Benito Mussolini](https://steamcommunity.com/sharedfiles/filedetails/?id=1587518150)
+- [JFD's Japan: Meiji](https://steamcommunity.com/sharedfiles/filedetails/?id=2149319617)
+- [JFD's Russia: Vladimir Putin](https://steamcommunity.com/sharedfiles/filedetails/?id=1310706235)
+- [JFD's Советский Союз: Ленин](https://steamcommunity.com/sharedfiles/filedetails/?id=2675642755)
+
+Эти восемь дополнительных пакетов JFD исключены из основного набора. Остальные установленные пакеты, включая JFD Churchill и советские пакеты, перечислены выше.

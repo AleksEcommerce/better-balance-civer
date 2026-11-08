@@ -3,9 +3,9 @@
   <LocalizedText>
     <Replace Language="ru_RU" Tag="LOC_PROMOTION_CLASS_BBC_ROCKET_NAME" Text="Ракетные установки" />
     <Replace Language="en_US" Tag="LOC_PROMOTION_CLASS_BBC_ROCKET_NAME" Text="Rocket Launchers" />
-    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_NAME" Text="Корректировка огня" />
+    <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_NAME" Text="Кассетные боеприпасы" />
     <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_DESCRIPTION" Text="+7 к силе обстрела против наземных юнитов." />
-    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_NAME" Text="Fire Control" />
+    <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_NAME" Text="Cluster Munitions" />
     <Replace Language="en_US" Tag="LOC_PROMOTION_BBC_ROCKET_FIRE_CONTROL_DESCRIPTION" Text="+7 Ranged Strength when attacking land units." />
     <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_ANTI_SHIP_NAME" Text="Противокорабельные ракеты" />
     <Replace Language="ru_RU" Tag="LOC_PROMOTION_BBC_ROCKET_ANTI_SHIP_DESCRIPTION" Text="+7 к силе обстрела против морских юнитов." />
