@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="ru_RU" Tag="LOC_BBC_MORTAR_DESCRIPTION">
+      <Text>Дальнобойный юнит для огневой поддержки наземных войск. Боевая мощь — 65, сила обстрела — 75, базовая дальность — 2 клетки.[NEWLINE][NEWLINE]Воздушный шар или беспилотник на той же или соседней клетке увеличивает дальность до 3 клеток; несколько корректировщиков не складывают этот бонус. Беспилотник также даёт +10 к силе обстрела (до 85); несколько беспилотников не складывают этот бонус.[NEWLINE][NEWLINE]Требует 15 селитры для постройки на стандартной скорости. В него улучшается полевая пушка. Завершает ветку улучшений и не превращается в ракетную установку.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BBC_MORTAR_DESCRIPTION">
+      <Text>Ranged fire-support unit. Combat Strength 65, Ranged Strength 75, base Range 2.[NEWLINE][NEWLINE]An Observation Balloon or Drone on the same or an adjacent tile increases Range to 3; multiple observers do not stack. A Drone also grants +10 Ranged Strength (85 total); multiple Drones do not stack this bonus.[NEWLINE][NEWLINE]Requires 15 Niter to build on Standard speed. Upgrades from Field Cannon. Ends its upgrade branch; does not upgrade into the rocket launcher.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_ANTIAIR_GUN_DESCRIPTION">
+      <Text>Зенитный юнит поддержки. Защищает от воздушных атак свою клетку и соседние клетки в радиусе 1. Сила ПВО — 100; базовая стоимость — 380 производства.[NEWLINE][NEWLINE]Стандартная поддержка соседних юнитов ПВО даёт +5 к силе ПВО за каждый участвующий в поддержке юнит. Дополнительная взаимная поддержка мобильных ЗРК на зенитную пушку не распространяется. Не расходует нефть на содержание.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_ANTIAIR_GUN_DESCRIPTION">
+      <Text>Anti-air support unit. Protects its own tile and adjacent tiles within 1 tile against air attacks. Anti-Air Strength 100; base Production cost 380.[NEWLINE][NEWLINE]Standard support from adjacent anti-air units grants +5 Anti-Air Strength per supporting unit. The additional Mobile SAM mutual-support bonus does not apply to this unit. No Oil upkeep.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_MOBILE_SAM_DESCRIPTION">
+      <Text>Современный зенитный юнит поддержки. Защищает свою клетку и соседние клетки в радиусе 1 от воздушных атак и может перехватывать ядерные удары по правилам ПВО игры. Сила ПВО — 110; базовая стоимость — 590 производства.[NEWLINE][NEWLINE]Каждый соседний собственный мобильный ЗРК даёт дополнительно +5 к силе ПВО сверх стандартной поддержки +5: итого +10 от соседнего мобильного ЗРК, участвующего в поддержке. Дополнительный бонус действует только между собственными мобильными ЗРК, а не между любыми зенитными юнитами.[NEWLINE][NEWLINE]Содержание — 8 золота за ход; нефть не требуется.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_MOBILE_SAM_DESCRIPTION">
+      <Text>Modern anti-air support unit. Protects its own tile and adjacent tiles within 1 tile against air attacks and can intercept nuclear attacks under the game’s anti-air rules. Anti-Air Strength 110; base Production cost 590.[NEWLINE][NEWLINE]Each adjacent owned Mobile SAM grants +5 additional Anti-Air Strength on top of standard +5 support: +10 in total from an adjacent supporting Mobile SAM. The additional bonus only applies between owned Mobile SAMs, not all anti-air units.[NEWLINE][NEWLINE]Upkeep: 8 Gold per turn, no Oil.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION">
+      <Text>Морской авианосец для базирования и перебазирования авиации.[NEWLINE][NEWLINE]Базовая вместимость — 4 самолёта. Базовый обзор — 3 клетки. Сила ПВО — 80; после изучения «Систем наведения» — 90. Бонусы вместимости и ПВО от повышений и других эффектов применяются дополнительно.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION">
+      <Text>Naval aircraft carrier for basing and rebasing aircraft.[NEWLINE][NEWLINE]Base aircraft capacity: 4. Base Sight: 3. Anti-Air Strength: 80, increasing to 90 after Guidance Systems. Additional capacity and anti-air bonuses from promotions and other effects still apply.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_FORD_CARRIER_DESCRIPTION">
+      <Text>Уникальный авианосец, заменяющий стандартный авианосец.[NEWLINE][NEWLINE]Базовая вместимость — 5 самолёта. Базовый обзор — 3 клетки. Сила ПВО — 80; после изучения «Систем наведения» — 90. Бонусы вместимости и ПВО от повышений и других эффектов применяются дополнительно. Боевая мощь — 75. Может входить в чужие границы без соглашения об открытых границах.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_FORD_CARRIER_DESCRIPTION">
+      <Text>Unique naval unit replacing the Aircraft Carrier.[NEWLINE][NEWLINE]Base aircraft capacity: 5. Base Sight: 3. Anti-Air Strength: 80, increasing to 90 after Guidance Systems. Additional capacity and anti-air bonuses from promotions and other effects still apply. Combat Strength: 75. Can enter foreign territory without an Open Borders agreement.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_SHANDONG_CARRIER_DESCRIPTION">
+      <Text>Уникальный авианосец, заменяющий стандартный авианосец.[NEWLINE][NEWLINE]Базовая вместимость — 4 самолёта. Базовый обзор — 3 клетки. Сила ПВО — 80; после изучения «Систем наведения» — 90. Бонусы вместимости и ПВО от повышений и других эффектов применяются дополнительно.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_SHANDONG_CARRIER_DESCRIPTION">
+      <Text>Unique naval unit replacing the Aircraft Carrier.[NEWLINE][NEWLINE]Base aircraft capacity: 4. Base Sight: 3. Anti-Air Strength: 80, increasing to 90 after Guidance Systems. Additional capacity and anti-air bonuses from promotions and other effects still apply.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_KUZNETSOV_CARRIER_DESCRIPTION">
+      <Text>Уникальный авианосец, заменяющий стандартный авианосец.[NEWLINE][NEWLINE]Базовая вместимость — 3 самолёта. Базовый обзор — 3 клетки. Сила ПВО — 80; после изучения «Систем наведения» — 90. Бонусы вместимости и ПВО от повышений и других эффектов применяются дополнительно.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_KUZNETSOV_CARRIER_DESCRIPTION">
+      <Text>Unique naval unit replacing the Aircraft Carrier.[NEWLINE][NEWLINE]Base aircraft capacity: 3. Base Sight: 3. Anti-Air Strength: 80, increasing to 90 after Guidance Systems. Additional capacity and anti-air bonuses from promotions and other effects still apply.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_ELIZABETH_CARRIER_DESCRIPTION">
+      <Text>Уникальный авианосец, заменяющий стандартный авианосец.[NEWLINE][NEWLINE]Базовая вместимость — 4 самолёта. Базовый обзор — 3 клетки. Сила ПВО — 80; после изучения «Систем наведения» — 90. Бонусы вместимости и ПВО от повышений и других эффектов применяются дополнительно.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_ELIZABETH_CARRIER_DESCRIPTION">
+      <Text>Unique naval unit replacing the Aircraft Carrier.[NEWLINE][NEWLINE]Base aircraft capacity: 4. Base Sight: 3. Anti-Air Strength: 80, increasing to 90 after Guidance Systems. Additional capacity and anti-air bonuses from promotions and other effects still apply.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_UNIT_DEGAULLE_CARRIER_DESCRIPTION">
+      <Text>Уникальный авианосец, заменяющий стандартный авианосец.[NEWLINE][NEWLINE]Базовая вместимость — 4 самолёта. Базовый обзор — 3 клетки. Сила ПВО — 80; после изучения «Систем наведения» — 90. Бонусы вместимости и ПВО от повышений и других эффектов применяются дополнительно.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_UNIT_DEGAULLE_CARRIER_DESCRIPTION">
+      <Text>Unique naval unit replacing the Aircraft Carrier.[NEWLINE][NEWLINE]Base aircraft capacity: 4. Base Sight: 3. Anti-Air Strength: 80, increasing to 90 after Guidance Systems. Additional capacity and anti-air bonuses from promotions and other effects still apply.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION">
+      <Text>+5 [ICON_Culture] культуры и +2 очка [ICON_GreatEngineer] великого инженера за ход. +1 [ICON_Science] науки, +1 [ICON_Faith] веры и +1 [ICON_Culture] культуры на всех клетках побережья этого города. Должен быть построен рядом с гаванью. Дополнительные заряды великим инженерам не предоставляются.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION">
+      <Text>+5 [ICON_Culture] Culture and +2 [ICON_GreatEngineer] Great Engineer points per turn. +1 [ICON_Science] Science, +1 [ICON_Faith] Faith, and +1 [ICON_Culture] Culture on all Coast tiles for this city. Must be built adjacent to a Harbor district. Does not grant additional Great Engineer charges.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION">
+      <Text>+6 [ICON_Production] производства этому городу постоянно. +100% к производству морских юнитов в этом городе, пока в нём есть неразграбленная верфь. +2 очка [ICON_GreatEngineer] великого инженера за ход. Не создаёт бесплатные копии кораблей. Должен быть построен на клетке побережья рядом с промышленной зоной.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION">
+      <Text>+6 [ICON_Production] Production in this city. +100% Production toward naval units in this city while it has an unpillaged Shipyard. +2 [ICON_GreatEngineer] Great Engineer points per turn. Does not grant free copies of ships. Must be built on a Coast tile adjacent to an Industrial Zone district.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_KILWA_KISIWANI_DESCRIPTION">
+      <Text>+3 [ICON_ENVOY] посла при завершении строительства. За сюзеренитет над городом-государством город с Килвой получает +15% к соответствующему типу дохода. Если вы сюзерен двух или более городов-государств одного типа, город с Килвой получает ещё +15% (суммарно +30%), а остальные ваши города получают +7% к соответствующему типу дохода. Строится на ровной клетке рядом с побережьем.</Text>
+    </Replace>
+    <Replace Language="en_US" Tag="LOC_BUILDING_KILWA_KISIWANI_DESCRIPTION">
+      <Text>+3 [ICON_ENVOY] Envoys when built. When you are the Suzerain of a city-state, the city with Kilwa receives +15% to the corresponding yield type. With 2 or more city-states of the same type, the Kilwa city receives another +15% (+30% total), while your other cities receive +7% to that yield type. Must be built on flat land adjacent to the Coast.</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

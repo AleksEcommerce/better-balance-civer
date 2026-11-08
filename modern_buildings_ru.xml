@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GameData>
+  <LocalizedText>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_POLICE_STATION_NAME">
+      <Text>Полицейский участок</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_POLICE_STATION_DESCRIPTION">
+      <Text>+8 [ICON_PressureUp] лояльности за ход. +1 [ICON_Amenities] довольства при максимальной лояльности города. Ещё +1 [ICON_Amenities] довольства при наличии [ICON_Power] электроснабжения.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WATER_PURIFICATION_PLANT_NAME">
+      <Text>Водоочистная станция</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WATER_PURIFICATION_PLANT_DESCRIPTION">
+      <Text>+10% [ICON_Food] пищи при наличии [ICON_Power] электроснабжения города.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_SEWAGE_TREATMENT_PLANT_NAME">
+      <Text>Станция очистки сточных вод</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_SEWAGE_TREATMENT_PLANT_DESCRIPTION">
+      <Text>+50% к скорости роста [ICON_Citizen] населения при наличии [ICON_Power] электроснабжения города.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WASTE_TO_ENERGY_PLANT_NAME">
+      <Text>Мусоросжигательная электростанция</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WASTE_TO_ENERGY_PLANT_DESCRIPTION">
+      <Text>+2 [ICON_Power] электроэнергии за каждые 10 [ICON_Citizen] населения города, максимум +10.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_HAUNTED_ATTRACTION_NAME">
+      <Text>Аттракцион с привидениями</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_HAUNTED_ATTRACTION_DESCRIPTION">
+      <Text>Приобретается только за [ICON_Faith] веру. +10 [ICON_Tourism] туризма. +100% религиозного давления из этого города на соседние города. +1 [ICON_Faith] веры за каждый специализированный район в этом городе.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_MEGACORP_NAME">
+      <Text>Штаб-квартира мегакорпорации</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_MEGACORP_DESCRIPTION">
+      <Text>Требует 4 [ICON_Power] электроэнергии. Работает только при электроснабжении города. +20% [ICON_Gold] золота в городе. +10 [ICON_Tourism] туризма за каждые 10 [ICON_Citizen] населения, максимум +40.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_AEROSPACE_LABORATORY_NAME">
+      <Text>Аэрокосмическая лаборатория</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_AEROSPACE_LABORATORY_DESCRIPTION">
+      <Text>Требует 4 [ICON_Power] электроэнергии. Работает только при электроснабжении города. +20% [ICON_Science] науки в городе. +50% [ICON_Production] производства проектов космической гонки.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_TELECOM_FACILITIES_NAME">
+      <Text>Телекоммуникационный комплекс</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_TELECOM_FACILITIES_DESCRIPTION">
+      <Text>Требует 4 [ICON_Power] электроэнергии. Работает только при электроснабжении города. +20% [ICON_Culture] культуры в городе. При [ICON_Citizen] населении не менее 30: +10% [ICON_Tourism] туризма всей цивилизации.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_NUCLEAR_FUEL_FACTORY_NAME">
+      <Text>Завод ядерного топлива</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_NUCLEAR_FUEL_FACTORY_DESCRIPTION">
+      <Text>Работает только при [ICON_Power] электроснабжении города. +2 [ICON_Resource_Uranium] урана за ход. +50% [ICON_Production] производства ядерных устройств.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_MILITARY_RESEARCH_INSTITUTE_NAME">
+      <Text>Военный научно-исследовательский институт</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_MILITARY_RESEARCH_INSTITUTE_DESCRIPTION">
+      <Text>При создании военного юнита в этом городе даёт [ICON_Science] науку в размере 25% стоимости юнита. Вместимость склада стратегических ресурсов увеличивается на 10 на стандартной скорости.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_CONTAINER_TERMINAL_NAME">
+      <Text>Контейнерный терминал</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_CONTAINER_TERMINAL_DESCRIPTION">
+      <Text>+1 [ICON_Food] пищи, +1 [ICON_Production] производства и +2 [ICON_Gold] золота на всех клетках океана этого города. Международные [ICON_TradeRoute] торговые пути в этот город дают +2 [ICON_Food] пищи и +2 [ICON_Gold] золота городам отправления и назначения.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_INTERNATIONAL_AIRPORT_NAME">
+      <Text>Международный аэропорт</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_INTERNATIONAL_AIRPORT_DESCRIPTION">
+      <Text>+2 места для авиации на аэродроме. При [ICON_Power] электроснабжении города и [ICON_Citizen] населении не менее 30: +10% к [ICON_Tourism] туризму от международных [ICON_TradeRoute] торговых путей вашей цивилизации.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_RESORT_HOTEL_NAME">
+      <Text>Курортный отель</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_RESORT_HOTEL_DESCRIPTION">
+      <Text>Бонус [ICON_Amenities] довольства распространяется на центры городов в радиусе 8 клеток. Бонус нескольких таких зданий не складывается.[NEWLINE][NEWLINE]При [ICON_Power] электроснабжении города и [ICON_Citizen] населении не менее 30: +25% [ICON_Tourism] туризма этого города по отношению к цивилизациям Нового времени и последующих эпох.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_CRUISE_SHIP_TERMINAL_NAME">
+      <Text>Круизный терминал</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_CRUISE_SHIP_TERMINAL_DESCRIPTION">
+      <Text>Бонус [ICON_Amenities] довольства распространяется на центры городов в радиусе 11 клеток. Бонус нескольких таких зданий не складывается.[NEWLINE][NEWLINE]При [ICON_Power] электроснабжении города и [ICON_Citizen] населении не менее 30: +25% [ICON_Tourism] туризма этого города по отношению к цивилизациям Нового времени и последующих эпох.</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WATER_MEGACORP_NAME">
+      <Text>Штаб-квартира мегакорпорации (прибрежный вариант)</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WATER_AEROSPACE_LABORATORY_NAME">
+      <Text>Аэрокосмическая лаборатория (прибрежный вариант)</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WATER_TELECOM_FACILITIES_NAME">
+      <Text>Телекоммуникационный комплекс (прибрежный вариант)</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WATER_NUCLEAR_FUEL_FACTORY_NAME">
+      <Text>Завод ядерного топлива (прибрежный вариант)</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WATER_INTERNATIONAL_AIRPORT_NAME">
+      <Text>Международный аэропорт (прибрежный вариант)</Text>
+    </Replace>
+    <Replace Language="ru_RU" Tag="LOC_BUILDING_WATER_MILITARY_RESEARCH_INSTITUTE_NAME">
+      <Text>Военный научно-исследовательский институт (прибрежный вариант)</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

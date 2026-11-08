@@ -38,7 +38,7 @@
 - [JFD's Советский Союз: Иосиф Сталин](https://steamcommunity.com/sharedfiles/filedetails/?id=2675646084)
 - [Map Search Extension](https://steamcommunity.com/sharedfiles/filedetails/?id=1709115371)
 - [Military Engineer Builds Canal](https://steamcommunity.com/sharedfiles/filedetails/?id=3645590802)
-- [Modern Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=2789835828)
+- [Modern Building Expansion](https://steamcommunity.com/sharedfiles/filedetails/?id=2789835828) — русский перевод 14 зданий и названий 6 прибрежных вариантов включён в Better Balance Civer; региональные радиусы 8/11 клеток.
 - [Multiplayer Helper 1.6.7](https://steamcommunity.com/sharedfiles/filedetails/?id=2357532056)
 - [Policy Change Reminder](https://steamcommunity.com/sharedfiles/filedetails/?id=1132600299)
 - [Policy Pack: Corporations](https://steamcommunity.com/sharedfiles/filedetails/?id=2857099961)

@@ -6,7 +6,7 @@ INSERT OR IGNORE INTO TypeTags (Type, Tag)
 SELECT UnitType, 'CLASS_FORWARD_OBSERVER' FROM Units WHERE UnitType = 'UNIT_DLV_MORTAR';
 
 -- A separately built rocket artillery unit, using the existing model.
-UPDATE Units SET Range = 8, Maintenance = 12, Combat = 50 WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
+UPDATE Units SET Range = 7, Maintenance = 12, Combat = 50 WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
 UPDATE Units SET Description = 'LOC_BBC_ROCKET_ARTILLERY_DESCRIPTION' WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
 UPDATE Units SET Description = 'LOC_BBC_MORTAR_DESCRIPTION' WHERE UnitType = 'UNIT_DLV_MORTAR';
 
@@ -77,3 +77,30 @@ INSERT OR IGNORE INTO RequirementSetRequirements (RequirementSetId, RequirementI
 INSERT OR IGNORE INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES ('BBC_ROCKET_VS_HEAVY_CAVALRY','MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH','BBC_ROCKET_VS_HEAVY_CAVALRY_REQS');
 INSERT OR IGNORE INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BBC_ROCKET_VS_HEAVY_CAVALRY','Amount',-7);
 INSERT OR IGNORE INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES ('ABILITY_BBC_ROCKET_CAVALRY_PENALTY','BBC_ROCKET_VS_HEAVY_CAVALRY');
+
+
+-- A launcher may enter a city, but cannot attack while on its City Center.
+-- Native conditional modifier: no forced movement or gameplay Lua is required.
+INSERT INTO Types (Type, Kind) VALUES
+('BBC_ABILITY_ROCKET_CITY_ATTACK_LOCK', 'KIND_ABILITY');
+INSERT INTO Tags (Tag, Vocabulary) VALUES
+('BBC_CLASS_ROCKET_CITY_ATTACK_LOCK', 'ABILITY_CLASS');
+INSERT INTO TypeTags (Type, Tag) VALUES
+('UNIT_ROCKET_ARTILLERY', 'BBC_CLASS_ROCKET_CITY_ATTACK_LOCK'),
+('BBC_ABILITY_ROCKET_CITY_ATTACK_LOCK', 'BBC_CLASS_ROCKET_CITY_ATTACK_LOCK');
+INSERT INTO UnitAbilities (UnitAbilityType, Name, Description, Inactive) VALUES
+('BBC_ABILITY_ROCKET_CITY_ATTACK_LOCK', 'LOC_BBC_ROCKET_CITY_LOCK_NAME', 'LOC_BBC_ROCKET_CITY_LOCK_DESCRIPTION', 0);
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES
+('BBC_ROCKET_ON_CITY_CENTER', 'REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES');
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES
+('BBC_ROCKET_ON_CITY_CENTER', 'DistrictType', 'DISTRICT_CITY_CENTER');
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
+('BBC_ROCKET_ON_CITY_CENTER_REQUIREMENTS', 'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES
+('BBC_ROCKET_ON_CITY_CENTER_REQUIREMENTS', 'BBC_ROCKET_ON_CITY_CENTER');
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
+('BBC_ROCKET_CITY_CANNOT_ATTACK', 'MODIFIER_PLAYER_UNIT_ADJUST_CANNOT_ATTACK', 'BBC_ROCKET_ON_CITY_CENTER_REQUIREMENTS');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+('BBC_ROCKET_CITY_CANNOT_ATTACK', 'Disable', 1);
+INSERT INTO UnitAbilityModifiers (UnitAbilityType, ModifierId) VALUES
+('BBC_ABILITY_ROCKET_CITY_ATTACK_LOCK', 'BBC_ROCKET_CITY_CANNOT_ATTACK');
