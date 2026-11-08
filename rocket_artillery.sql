@@ -6,7 +6,7 @@ INSERT OR IGNORE INTO TypeTags (Type, Tag)
 SELECT UnitType, 'CLASS_FORWARD_OBSERVER' FROM Units WHERE UnitType = 'UNIT_DLV_MORTAR';
 
 -- A separately built rocket artillery unit, using the existing model.
-UPDATE Units SET Range = 7, Maintenance = 12, Combat = 50 WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
+UPDATE Units SET Range = 8, Maintenance = 12, Combat = 50 WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
 UPDATE Units SET Description = 'LOC_BBC_ROCKET_ARTILLERY_DESCRIPTION' WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
 UPDATE Units SET Description = 'LOC_BBC_MORTAR_DESCRIPTION' WHERE UnitType = 'UNIT_DLV_MORTAR';
 
