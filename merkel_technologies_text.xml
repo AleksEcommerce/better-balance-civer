@@ -2,6 +2,6 @@
 <GameData><LocalizedText>
 <Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_MERKEL_NAME"><Text>Немецкие технологии</Text></Replace>
 <Replace Language="en_US" Tag="LOC_TRAIT_LEADER_MERKEL_NAME"><Text>German Technologies</Text></Replace>
-<Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_MERKEL_DESCRIPTION"><Text>Дополнительная ячейка дипломатического курса после открытия «Политической философии». Шахты на стратегических ресурсах, нефтяные вышки и морские нефтяные платформы дают +1 [ICON_Production] производства.</Text></Replace>
-<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_MERKEL_DESCRIPTION"><Text>Additional Diplomatic policy slot with the Political Philosophy civic. Mines on strategic resources, Oil Wells and Offshore Oil Rigs provide +1 [ICON_Production] Production.</Text></Replace>
+<Replace Language="ru_RU" Tag="LOC_TRAIT_LEADER_MERKEL_DESCRIPTION"><Text>Дополнительная ячейка дипломатического курса после открытия «Политической философии». Шахты на стратегических ресурсах, нефтяные вышки и морские нефтяные платформы дают +2 [ICON_Production] производства.</Text></Replace>
+<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_MERKEL_DESCRIPTION"><Text>Additional Diplomatic policy slot with the Political Philosophy civic. Mines on strategic resources, Oil Wells and Offshore Oil Rigs provide +2 [ICON_Production] Production.</Text></Replace>
 </LocalizedText></GameData>
